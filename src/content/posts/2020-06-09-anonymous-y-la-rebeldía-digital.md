@@ -1,9 +1,13 @@
 ---
 template: blog-post
 title: Anonymous y la rebeldía digital
-slug: "101"
+slug: anonymous-y-la-rebeldia-digital
 date: 2020-06-08 21:50
-description: dddd
+description: >-
+  “El conocimiento es libre. Somos Anonymous. Somos Legión. No perdonamos. No
+  olvidamos.”
+
+  Este es el lema de Anonymous un colectivo de autodenominados “hacktivistas” o “ciberactivistas” de los cuales seguro has escuchado y los recordarás por utili
 featuredImage: /assets/img_20200602_163945.jpg
 ---
 <!--StartFragment-->
@@ -14,7 +18,7 @@ Este es el lema de Anonymous un colectivo de autodenominados “hacktivistas” 
 
 Al ser un movimiento social y pasar a ser un icono de la cultura pop sus objetivos e intenciones nos siempre han sido muy claros para todos. Nacido como diversión en el año 2003 en los foros de 4Chan, una comunidad donde cualquier persona puede publicar un texto o una foto relacionada con un tema sin necesidad de registrarse, caso contrario a lo que ocurre con Facebook u otras redes sociales, cuando esto sucede el usuario aparece como “Anonymous” este nombre representa en una sola persona osea a toda una comunidad, que tiene un mismo propósito.
 
-![](https://miro.medium.com/max/30/1*u8TF4W0Cv-DyS1qF6XPzWw.jpeg?q=20)
+![]()
 
 ![](https://miro.medium.com/max/3648/1*u8TF4W0Cv-DyS1qF6XPzWw.jpeg)
 
@@ -24,7 +28,7 @@ Al inicio de la década y con muchos tecnicismos nuevos vimos cómo se gestaron 
 
 Durante varios años el movimiento se mantuvo fuera de reflectores pero han aparecido nuevamente tras el asesinato de George Floyd, interfiriendo los radios de la policía de Chicago poniendo el himno del rap interpretado por N.W.A “Fuck tha police” y ha asegurado que se filtrará al mundo todos los crímenes que han llevado a cabo protegiendo a los “poderosos”.
 
-![](https://miro.medium.com/max/30/1*YAiXNGfX4_HtLiYbDcnj-g.jpeg?q=20)
+![]()
 
 ![](https://miro.medium.com/max/1200/1*YAiXNGfX4_HtLiYbDcnj-g.jpeg)
 

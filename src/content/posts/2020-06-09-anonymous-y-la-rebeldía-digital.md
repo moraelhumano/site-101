@@ -4,6 +4,7 @@ title: Anonymous y la rebeldía digital
 slug: "101"
 date: 2020-06-08 21:50
 description: dddd
+featuredImage: /assets/img_20200602_163945.jpg
 ---
 <!--StartFragment-->
 

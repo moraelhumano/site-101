@@ -51,7 +51,7 @@ const Contact = ({data}) => {
             <label>¿Por qué quieres aprender a programar?<textarea name="message"></textarea></label>
           </p>
           <p className="text-align-right">
-            <button className="button" type="submit">Send Message <span className="icon -right"><RiSendPlane2Line/></span></button>
+            <button className="button" type="submit">Enviar registro <span className="icon -right"><RiSendPlane2Line/></span></button>
           </p>
         </form>
       </div>

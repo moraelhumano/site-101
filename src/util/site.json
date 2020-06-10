@@ -2,10 +2,10 @@
   "meta": {
     "title": "Tech 101",
     "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
-    "siteUrl": "https://foundation.stackrole.com",
+    "description": "Somos una comunidad de talento digital y nos interesa que formes parete de ella ❤ by Tech 101",
+    "siteUrl": "https://tech101.io/",
     "image": "/assets/89363482_554484138754824_1133457193857712128_n.png",
-    "twitterUsername": "@stackrole"
+    "twitterUsername": "@somostech101"
   },
   "ga": "UA-XXXXXXXXX-X"
 }

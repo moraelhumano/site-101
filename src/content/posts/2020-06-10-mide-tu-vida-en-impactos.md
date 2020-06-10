@@ -6,7 +6,7 @@ date: 2020-06-10 13:08
 description: " Si necesitas ayuda el diagrama de Ikigai puede hacerlo, este mapa
   se divide en varias secciones que nos ayudarán a poder encontrar un propósito
   por medio de 4 sencillas preguntas."
-featuredImage: /assets/anotación-2020-06-10-131529.png
+featuredImage: /assets/img_20190424_132611.jpg
 ---
 <!--StartFragment-->
 

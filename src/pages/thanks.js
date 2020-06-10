@@ -15,9 +15,9 @@ const Thanks = () => (
         fontSize: "128px",
         color: "var(--primary-color)"
       }}/>
-      <h1>Got your message</h1>
-      <p>Thank you for getting in touch us. We will get back to you shortly.</p>
-      <Link to="/" className="button"><RiArrowLeftSLine className="icon -left"/>Lets go back to Homepage</Link>
+      <h1>¡Agradecemos tu interés!</h1>
+      <p>Mantente al tanto en nuestras redes sociales para enterarte de los siguientes pasos</p>
+      <Link to="/" className="button"><RiArrowLeftSLine className="icon -left"/>Sigue aprendiendo con Tech 101</Link>
     </div>
 
   </Layout>

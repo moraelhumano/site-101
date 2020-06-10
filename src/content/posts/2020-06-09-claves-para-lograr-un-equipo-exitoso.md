@@ -7,6 +7,7 @@ description: A lo largo de mi vida, muchas veces me pidieron trabajar en equipo.
   Honestamente, no me gustaba. Prefería hacer mi trabajo de forma individual.
   Sin embargo, con el paso del tiempo, fui comprendiendo el porqué de los
   equipos.
+featuredImage: /assets/1-2wn_angajo4_kn1jfbzuwq.png
 ---
 <!--StartFragment-->
 

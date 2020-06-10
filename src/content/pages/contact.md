@@ -1,8 +1,8 @@
 ---
 template: contact-page
 slug: /contact
-title: Get in touch
+title: Registro Batch 2
 ---
-Got a burning question regarding **JAMstack**, Need a new **Website**, or just anything in general. We are happy to talk.
+Nos alegra estés interesado en formar parte del segundo batch del bootcamp Tech 101. 
 
-Just send us a message using the form below or you can send us a DM on [Twitter](https://twitter.com/stackrole)
+La convocatoria termina el 19 de junio.

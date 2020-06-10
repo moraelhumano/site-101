@@ -3,13 +3,10 @@ import { Link } from "gatsby"
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
 const MenuItems = [
-  {
-    path: "/",
-    title: "Home"
-  },
+
   {
     path: "/about",
-    title: "About"
+    title: "Convocatoria"
   },
   {
     path: "/blog",
@@ -17,7 +14,7 @@ const MenuItems = [
   },
   {
     path: "/contact",
-    title: "Contact"
+    title: "Registro"
   },
 ]
 

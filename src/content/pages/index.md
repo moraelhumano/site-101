@@ -1,11 +1,12 @@
 ---
 template: index-page
 slug: /
-title: Wyatt Morriss
-tagline: Graphic Designer
+title: Tech 101
+tagline: Comunidad de creadores digitales
 featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
 cta:
-  ctaText: Know more
+  ctaText: Conoce la convocatoria
   ctaLink: /about
 ---
-He is a award winning gaming graphic designer, based in sunny side of California. Working as Principal designer at Bethesda
+Estamos por comenzar nuestro segundo bacth y queremos que formes parte de él.
+Comenzamos el pr{oximo 29 de junio, entra y conoce las bases de la convocatoria.

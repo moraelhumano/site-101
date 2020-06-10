@@ -6,7 +6,7 @@ date: 2020-06-10 12:58
 description: Es un placer de la vida el darle vuelta una a una a la páginas y
   sentir como el lado izquierdo comienza a hacerse más pesado y el derecho
   comienza a perder fuerza para permitirnos conocer más sobre él.
-featuredImage: /assets/1-zqsjlhdv6roy_jqai3qptg.jpeg
+featuredImage: /assets/typ.png
 ---
 <!--StartFragment-->
 

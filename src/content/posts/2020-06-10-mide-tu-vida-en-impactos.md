@@ -6,7 +6,7 @@ date: 2020-06-10 13:08
 description: " Si necesitas ayuda el diagrama de Ikigai puede hacerlo, este mapa
   se divide en varias secciones que nos ayudarán a poder encontrar un propósito
   por medio de 4 sencillas preguntas."
-featuredImage: /assets/tl3.png
+featuredImage: /assets/img_20190424_220848.jpg
 ---
 <!--StartFragment-->
 
@@ -16,7 +16,7 @@ Hace 3 años en mi habitación, después de tener una conversación con mi mamá
 
 Durante estos años de vivir de y para la tecnología me he encontrado con muchos programadores, diseñadores gráficos, diseñadores de UX, etc, de las que aprendí el verdadero significado de ayudar a las personas y que el código no se trata de reconocimiento ni dinero, porque aquí la calidad de vida de las personas es la que está en juego y mejorar nuestro entorno es tarea obligatoria de todo aquel que se diga creador tech.
 
-![](/assets/anotación-2020-06-10-131529.png "La primer colaboración de la comunidad en un evento, Talentland 2019 nos enseño que en todos lados hay personas interesadas en cambiar el mundo contigo")
+![](/assets/tl3.png "La primer colaboración de la comunidad en un evento, Talentland 2019 nos enseño que en todos lados hay personas interesadas en cambiar el mundo contigo")
 
 **Generar impacto**
 

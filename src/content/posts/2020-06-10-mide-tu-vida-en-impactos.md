@@ -16,9 +16,7 @@ Hace 3 años en mi habitación, después de tener una conversación con mi mamá
 
 Durante estos años de vivir de y para la tecnología me he encontrado con muchos programadores, diseñadores gráficos, diseñadores de UX, etc, de las que aprendí el verdadero significado de ayudar a las personas y que el código no se trata de reconocimiento ni dinero, porque aquí la calidad de vida de las personas es la que está en juego y mejorar nuestro entorno es tarea obligatoria de todo aquel que se diga creador tech.
 
-![](/assets/anotación-2020-06-10-131529.png)
-
-
+![](/assets/anotación-2020-06-10-131529.png "La primer colaboración de la comunidad en un evento, Talentland 2019 nos enseño que en todos lados hay personas interesadas en cambiar el mundo contigo")
 
 **Generar impacto**
 
@@ -33,8 +31,6 @@ Solo date unos minutos o días de meditación y piensa que es lo que vas a hacer
 * ¿Qué crees que el mundo necesita de ti?
 * ¿Por qué deberías recibir un salario?
 
-
-
 ![](/assets/1-u8yemmezudiykf-dw3bwra.jpeg "Ikigai es una palabra/filosofía japonesa, a la cual se le atribuyen varios significados: “La felicidad de estar siempre ocupado”, “una razón para levantarse por las mañanas”, “propósito de vida”, “el significado de tu vida”, “razón de ser”, entre muchas otras.")
 
 Una vez que encuentres ese propósito créeme que las cosas comenzarán a suceder con un poco de trabajo bien dirigido y sin irnos por las ramas para lograr esas metas que vaya que nos pueden llegar a costar solo el poder definirlas.
@@ -44,7 +40,5 @@ Recuérdalo: “Genera impacto”
 Saludos desde 127.0.0.1
 
 **Colaborador: Salvador Mora**
-
-
 
 <!--EndFragment-->

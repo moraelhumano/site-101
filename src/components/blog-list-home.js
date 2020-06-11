@@ -5,12 +5,12 @@ import { RiArrowDownLine, RiArrowRightSLine } from "react-icons/ri"
 import PostCard from "./post-card"
 
 const PostMaker = ({ data }) => (
-  <section className="home-posts">
-    <h2>Lee nuestras últimas colaboraciones en nuestro <strong>Blog</strong> <span class="icon -right"><RiArrowDownLine/></span></h2>
+  <section className="container margin-top-xlg">
+    <h2 className="text-center">Lee las últimas colaboraciones de la comunidad en nuestro <strong>Blog</strong> <span className="icon -right"><RiArrowDownLine/></span></h2>
     <div className="grids col-1 sm-2 lg-3">
       {data}
     </div>
-    <Link className="button" to="/blog">Ver más<span class="icon -right"><RiArrowRightSLine/></span></Link>
+    <Link className="button margin-top-lg" to="/blog">Ver más<span className="icon -right"><RiArrowRightSLine/></span></Link>
   </section>
 )
 

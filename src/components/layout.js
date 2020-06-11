@@ -5,6 +5,7 @@ import Header from "./header"
 import Logo from "./logo"
 import Navigation from "./navigation";
 
+
 import "../assets/scss/style.scss"
 import Footer from "./footer";
 
@@ -29,7 +30,7 @@ const Layout = ({children, className}) => {
         <Logo title={siteTitle} />
         <Navigation/>
       </Header>
-      <main className={"container " + className}>
+      <main >
         {children}
       </main>
       <Footer/>

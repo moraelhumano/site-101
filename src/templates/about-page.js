@@ -21,7 +21,7 @@ const AboutPage = ({ data }) => {
   const { frontmatter, html, excerpt } = markdownRemark
 
 	return (
-		<Layout className="page">
+		<Layout className="container page">
 			<SEO
 				title={frontmatter.title}
 				description={excerpt}

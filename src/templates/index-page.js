@@ -46,7 +46,6 @@ const HomePage = ({ data }) => {
       <div className="home-banner grids col-1 sm-2">
         <div className="text-hero">
           <h1 className="title ">{frontmatter.title}</h1>
-          <p className="tagline">{frontmatter.tagline}</p>
           <div className="description" dangerouslySetInnerHTML={{__html: html}}/>
           <Link to={frontmatter.cta.ctaLink} className="button announcement-button">{frontmatter.cta.ctaText}<span className="icon -right"><RiArrowRightSLine/></span></Link>
         </div>

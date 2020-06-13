@@ -42,7 +42,7 @@ const HomePage = ({ data }) => {
 		<Layout>
       <SEO/>
 
-      <div className="">
+      <div className="full-width-view">
       <div className="home-banner grids col-1 sm-2">
         <div className="text-hero">
           <h1 className="title ">{frontmatter.title}</h1>

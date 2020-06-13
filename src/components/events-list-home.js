@@ -5,7 +5,7 @@ import { RiArrowDownLine, RiArrowRightSLine } from "react-icons/ri"
 import PostCard from "./post-card"
 
 const PostMaker = ({ data }) => (
-  <section className="home-posts container">
+  <section className="home-posts container ">
     <h2>Lee nuestras últimas colaboraciones en nuestro <strong>Blog</strong> <span class="icon -right"><RiArrowDownLine/></span></h2>
     <div className="grids col-1 sm-2 lg-3">
       {data}

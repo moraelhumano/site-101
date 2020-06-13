@@ -10,7 +10,7 @@
 
 
 
-primary-container {
+.primary-container {
 display: grid;
 grid-template-rows: 60px auto 60px;
 min-height: 100vh;
@@ -107,9 +107,10 @@ min-height: 100vh;
 }
 .container {
 	margin: 0 auto;
-	max-width: 1240px;
-	padding: 0 20px;
 }
+
+.container-list-blog {
+	max-width: 1240px}
 
 
 .text-hero{

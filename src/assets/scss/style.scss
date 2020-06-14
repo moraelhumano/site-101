@@ -16,11 +16,22 @@ grid-template-rows: 60px auto 60px;
 min-height: 100vh;
 }
 
-
+.description {
+	font-size: 30px;
+	line-height: 1.4;
+	margin-bottom: 30px;
+}
 .primary-container main {
 	min-height: calc(100vh - 60px - 81px);
 }
 
+	
+.announcement-button{
+	padding: 20px !important;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+}
 
 
 .site-header {
@@ -45,9 +56,7 @@ height: 90px;
   a {
     color: rgba(255,255,255,0.6);
     text-decoration: none;
-    &:hover {
-      color: rgba(255,255,255,0.8);
-    }
+
   }
   a[aria-current="page"] {
     color: rgba(255,255,255,1)
@@ -60,7 +69,8 @@ height: 90px;
     color: white;
     padding: 0;
     cursor: pointer;
-  }
+	}
+
   @media (max-width: $breakpoint-lg) {
     .menu-trigger,
     .icon-menu-line {
@@ -104,9 +114,7 @@ height: 90px;
       display: block;
       padding: 20px;
     }
-    a:hover {
-      background-color: #29121D;
-    }
+
   }
 }
 .container {
@@ -114,13 +122,12 @@ height: 90px;
 }
 
 .container-list-blog {
-	max-width: 1240px}
-
-.announcement-button{
-	padding: 0;
+	max-width: 1240px;
 }
+
+
 .text-hero{
-	width: 45%;
+	width: 54%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -137,9 +144,6 @@ height: 90px;
   a {
     color: #fff;
 		text-decoration: none;
-		&:hover {
-			color: #fff;
-		}
   }
   @media (max-width: $breakpoint-lg) {
     font-size: 20px;
@@ -162,11 +166,13 @@ height: 90px;
 	justify-content: left;
 	align-items: center;
 	padding: 0 10%;
-	.title {
-		font-size: 48px;
-		line-height: 48px;
-		margin: 0 0 5px;
-		font-weight: 900;
+
+		.title {
+			font-size: 101px;
+			line-height: 90px;
+			margin: 0 0 5px;
+			font-weight: 900;
+
 	}
 	.tagline {
 		font-size: 24px;
@@ -174,11 +180,7 @@ height: 90px;
 		margin-top: 2px;
 		color: rgba(0,0,0,0.7)
 	}
-	.description {
-		font-size: 20px;
-		line-height: 1.4;
-		margin-bottom: 30px;
-	}
+
 	.featured-image {
 		border-radius: 12px;
 	}
@@ -262,9 +264,41 @@ height: 90px;
 }
 @media (max-width: $breakpoint-sm) {
 
+	.description {
+		font-size: 20px;
+	}
+
+.title{
+font-size: 48px !important;
+line-height: 48px !important;
+}
+	.button-responsive{
+		padding: 20px !important;
+		width: 77% !important;
+	}
+
+	.announcement-button{
+		align-self: center;
+	}
+
 	.site-header{
 		justify-content: space-between;
 	}
+
+	.home-banner{
+		height: 95vh;
+		padding: 0 5%;
+		background-position-x: -878px;
+background-position-y: 26px;
+background-size: 260vh;
+
+	}
+
+	.text-hero{
+		width: 100%;
+	}
+	
+
   .post-card .featured-image {
     min-height: 300px;
   }
@@ -321,18 +355,12 @@ article img {
 	font-size: inherit;
 	line-height: 1;
 	transition: background .3s linear;
-	&:hover {
-		background-color: var(--button-color);
-		color: var( --button-alternate-color);
-	}
+
 	&.-outline {
 		color: var(--primary-color);
 		box-shadow: 0 0 1px rgba(0,0,0,0.6);
 		background: #fff;
-		&:hover {
-			box-shadow: 0 0 1px rgba(0,0,0,0.8);
-			background: #f2f2f2;
-		}
+
 	}
 	& + .button {
 		margin-left: 20px;
@@ -340,7 +368,7 @@ article img {
 	.icon {
 		display: inline-flex;
 		&.-right {
-			margin-left: var(--margin);
+			margin-left: 10px;
 		}
 		&.-left {
 			margin-right: var(--margin);

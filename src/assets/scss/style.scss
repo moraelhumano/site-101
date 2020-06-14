@@ -79,7 +79,9 @@ height: 90px;
       }
     }
     .menu-trigger.is-active + ul {
-      display: block;
+			display: block;
+			border-left: 1px solid rgba(255, 255, 255, 0.8);
+			border-bottom: 1px solid rgba(255, 255, 255, 0.8);
     }
     ul {
       display: none;
@@ -87,15 +89,16 @@ height: 90px;
       right: 0;
       top: 100%;
       z-index: 1;
-      background: #421E2F;
+      background: #000;
       width: 100%;
 			max-width: 320px;    
 			border-radius: 0 0 0 12px;
-      overflow: hidden;
+			overflow: hidden;
     }
     ul li {
       display: block;
-      margin-left: 0;
+			margin-left: 0;
+			border-top: 1px solid rgba(255, 255, 255, 0.8);
     }
     a {
       display: block;
@@ -114,7 +117,7 @@ height: 90px;
 	max-width: 1240px}
 
 .announcement-button{
-	padding: 0;;
+	padding: 0;
 }
 .text-hero{
 	width: 45%;
@@ -258,6 +261,10 @@ height: 90px;
   }
 }
 @media (max-width: $breakpoint-sm) {
+
+	.site-header{
+		justify-content: space-between;
+	}
   .post-card .featured-image {
     min-height: 300px;
   }

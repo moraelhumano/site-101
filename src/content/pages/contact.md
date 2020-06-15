@@ -1,8 +1,5 @@
 ---
 template: contact-page
 slug: /contact
-title: Registro Batch 2
+title: ¡Registrate a nuestro próximos Batch, comenzamos el 3 de Agosto!
 ---
-Nos alegra estés interesado en formar parte del segundo batch del bootcamp Tech 101. 
-
-La convocatoria termina el 19 de junio.

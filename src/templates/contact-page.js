@@ -28,12 +28,12 @@ const Contact = ({data}) => {
   const { frontmatter, html } = markdownRemark
 
   return  (
-    <Layout className="container contact-page">
+    <Layout className="container contact-page margin-top-xlg"> 
       <SEO 
         title={frontmatter.title}
         description={frontmatter.title + " " + site.siteMetadata.title}
       />
-      <div className="wrapper">
+      <div className="wrapper margin-top-xlg">
         <h1>{frontmatter.title}</h1>
         <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
         <form className="contact-form" action="/thanks" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">

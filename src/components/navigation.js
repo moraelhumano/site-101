@@ -6,7 +6,7 @@ const MenuItems = [
 
   {
     path: "/about",
-    title: "Convocatoria"
+    title: "Nosotros"
   },
   {
     path: "/blog",

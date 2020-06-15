@@ -4,6 +4,7 @@ import { RiArrowRightSLine } from "react-icons/ri"
 
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
+import Presentation from "../components/presentation"
 import SEO from "../components/seo"
 
 
@@ -52,7 +53,10 @@ const HomePage = ({ data }) => {
       </div>
 
       </div>
+      <Presentation/>
       <BlogListHome/>
+
+
 		</Layout>
 	)
 }

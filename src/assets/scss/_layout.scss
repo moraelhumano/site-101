@@ -13,3 +13,28 @@
 .full-width-view{
   width: 99vw;
 }
+
+
+.presentation-container{
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0 !important;
+
+  img{
+    width: 40%;
+  }
+
+  div{
+    width: 50%;
+    h2{
+      font-size: 4em;
+      margin-bottom: 1rem !important;
+      line-height: 70px;
+    }
+    p{
+      font-size: 20px;
+    }
+  }
+}

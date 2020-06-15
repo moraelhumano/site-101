@@ -264,6 +264,29 @@ height: 90px;
 }
 @media (max-width: $breakpoint-sm) {
 
+
+	
+.presentation-container{
+	flex-direction: column-reverse;
+
+  img{
+    width: 90%;
+  }
+
+  div{
+		width: 100%;
+		padding: 20px 30px;
+    h2{
+      font-size: 2em;
+			margin-bottom: 1rem !important;
+			line-height: 40px;
+
+		}
+		p{
+			font-size: 20px;
+		}
+  }
+}
 	.description {
 		font-size: 20px;
 	}

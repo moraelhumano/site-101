@@ -30,7 +30,7 @@ const Layout = ({children, className}) => {
         <Logo title={siteTitle} />
         <Navigation/>
       </Header>
-      <main className="container contact-page padding-zero">
+      <main className="container contact-page padding-zero container-fix" >
         {children}
       </main>
       <Footer/>

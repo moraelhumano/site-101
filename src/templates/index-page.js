@@ -42,8 +42,6 @@ const HomePage = ({ data }) => {
 	return (
 		<Layout>
       <SEO/>
-
-      <div className="full-width-view">
       <div className="home-banner grids col-1 sm-2">
         <div className="text-hero">
           <h1 className="title ">{frontmatter.title}</h1>
@@ -51,10 +49,8 @@ const HomePage = ({ data }) => {
           <Link to={frontmatter.cta.ctaLink} className="button announcement-button button-responsive">{frontmatter.cta.ctaText}<span className="icon -right"><RiArrowRightSLine/></span></Link>
         </div>
       </div>
-
-      </div>
-      <Presentation/>
-      <BlogListHome/>
+      <Presentation className="full-width-por"/>
+      <BlogListHome className="full-width-por"/>
 
 
 		</Layout>

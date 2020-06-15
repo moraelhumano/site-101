@@ -11,9 +11,12 @@
 }
 
 .full-width-view{
-  width: 99vw;
+  width: 100vw;
 }
 
+.full-width-por{
+  width: 100%;
+}
 
 .presentation-container{
   width: 100%;
@@ -23,11 +26,11 @@
   margin-top: 0 !important;
 
   img{
-    width: 40%;
+    width: 50%;
   }
 
   div{
-    width: 50%;
+    width: 45%;
     h2{
       font-size: 4em;
       margin-bottom: 1rem !important;
@@ -37,4 +40,8 @@
       font-size: 20px;
     }
   }
+}
+
+.container-fix{
+  width: -moz-available;
 }

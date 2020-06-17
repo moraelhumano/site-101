@@ -281,6 +281,30 @@ height: 90px;
 	
 		}
 
+
+		.contact-container{
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+		
+			img{
+				width: 40%;
+				align-self: center;
+			}
+		
+			div{
+				width: 90%;
+				line-height: 30px;
+				h1{
+					font-size: 2em;
+					line-height: 40px;
+					margin: 0 !important;
+				}
+
+			}
+		}
+		
+
 		
 .allies-container{
   max-width: 90% !important;

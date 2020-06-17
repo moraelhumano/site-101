@@ -219,9 +219,9 @@ height: 90px;
 			margin: 0;
 		}
 	}
-	.title {
+	.title-card {
 		margin: 0 0 3px;
-		font-size: 20px;
+		font-size: 24px;
 		font-weight: 600;
 		a { 
 			color: var(--post-link-color);
@@ -272,7 +272,10 @@ height: 90px;
 }
 @media (max-width: $breakpoint-sm) {
 
-
+  iframe{
+		width: 90%;
+	 }
+ 
 		.img-presentation{
 			display: none;
 	

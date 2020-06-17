@@ -1,7 +1,7 @@
 import React from "react"
 
 const Methodology = () => (
-  <section className="container presentation-container margin-top-xlg container-presentation">
+  <section className="container presentation-container margin-top-lg container-presentation">
     <div>
       <h2 >Aprende como aprenden los programadores</h2>
 

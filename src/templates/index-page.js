@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
 import Presentation from "../components/presentation"
 import Methodology from "../components/methodology"
+import Allies from "../components/allies"
 import SEO from "../components/seo"
 
 
@@ -52,6 +53,7 @@ const HomePage = ({ data }) => {
       </div>
       <Presentation className="full-width-por"/>
       <Methodology className="full-width-por"/>
+      <Allies className="full-width-por margin-top-xlg "/>
       <BlogListHome className="full-width-por"/>
 
 

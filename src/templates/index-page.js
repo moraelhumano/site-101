@@ -5,6 +5,7 @@ import { RiArrowRightSLine } from "react-icons/ri"
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
 import Presentation from "../components/presentation"
+import Methodology from "../components/methodology"
 import SEO from "../components/seo"
 
 
@@ -50,6 +51,7 @@ const HomePage = ({ data }) => {
         </div>
       </div>
       <Presentation className="full-width-por"/>
+      <Methodology className="full-width-por"/>
       <BlogListHome className="full-width-por"/>
 
 

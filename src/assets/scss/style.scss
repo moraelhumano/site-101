@@ -118,12 +118,19 @@ height: 90px;
   }
 }
 .container {
-	margin: 0 auto;
+	margin: auto;
 }
 
 .container-list-blog {
 	max-width: 1240px;
+	width: 90% !important;
 }
+
+.container-presentation {
+	max-width: 1240px;
+}
+
+
 
 
 .text-hero{
@@ -265,6 +272,11 @@ height: 90px;
 }
 @media (max-width: $breakpoint-sm) {
 
+
+		.img-presentation{
+			display: none;
+	
+		}
 
 	
 .presentation-container{

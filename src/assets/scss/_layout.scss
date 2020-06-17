@@ -23,7 +23,6 @@
   height: inherit;
   display: flex;
   justify-content: space-between;
-  margin-top: 0 !important;
 
   img{
     width: 50%;
@@ -42,6 +41,47 @@
   }
 }
 
+
+.contact-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  img{
+    width: 40%;
+    align-self: center;
+  }
+
+  div{
+    width: 50%;
+    line-height: 30px;
+    h1{
+      font-size: 3em;
+      line-height: 50px;
+      margin: 0 !important;
+    }
+    p{
+      font-size: 20px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
 .container-fix{
   width: -moz-available;
+}
+
+.title-blog {
+  font-size: 27px !important;
+  line-height: 48px !important;
+}
+
+
+.align-self{
+  align-self: center;
+}
+
+.margin-top-zero{
+  margin-top: 0 !important;
 }

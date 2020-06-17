@@ -33,9 +33,17 @@ const Contact = ({data}) => {
         title={frontmatter.title}
         description={frontmatter.title + " " + site.siteMetadata.title}
       />
+ 
+
+      <section className="container contact-container container-presentation">
+
+      <img src={require('../../static/assets/logo.png')} className="logo img-presentation align-self" />
+
       <div className="wrapper margin-top-xlg">
         <h1>{frontmatter.title}</h1>
-        <div className="description" dangerouslySetInnerHTML={{ __html: html }} />
+        <p>
+          Nuestro bootcamp está orientado a principiantes con el objetivo de integrarse a la industria tech
+        </p>
         <form className="contact-form" action="/thanks" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contact" />
           <p>
@@ -44,17 +52,16 @@ const Contact = ({data}) => {
           <p>
             <label>Email<input type="email" name="email" /></label>
           </p>
+
           <p>
-            <label>País y estado de origen<input type="text" name="subject" /></label>   
-          </p>
-          <p>
-            <label>¿Por qué quieres aprender a programar?<textarea name="message"></textarea></label>
+            <label>Contáctame por Whatsapp<input name="number" /></label>
           </p>
           <p className="text-align-right">
             <button className="button" type="submit">Enviar registro <span className="icon -right"><RiSendPlane2Line/></span></button>
           </p>
         </form>
       </div>
+  </section>
 
     </Layout>
   )

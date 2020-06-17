@@ -1,5 +1,6 @@
 ---
 template: contact-page
 slug: /contact
-title: ¡Registrate a nuestro próximos Batch, comenzamos el 3 de Agosto!
+title: Forma parte de nuestra comunidad
+description: Forma parte de nuestra comunidad
 ---

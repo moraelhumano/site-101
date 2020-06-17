@@ -44,6 +44,13 @@ const Contact = ({data}) => {
         <p>
           Nuestro bootcamp está orientado a principiantes con el objetivo de integrarse a la industria tech
         </p>
+        <a href="https://bit.ly/2YHKzB3" target="_blank" download>
+        <p>
+          Descarga la información del programa &#128187;
+        </p>
+
+        </a>
+
         <form className="contact-form" action="/thanks" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
           <input type="hidden" name="form-name" value="contact" />
           <p>

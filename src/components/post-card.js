@@ -6,7 +6,7 @@ const PostCard = ({ data }) => (
   <article className="post-card">
     {data.frontmatter.featuredImage ? 
       (
-        <Link to={data.frontmatter.slug}>
+        <Link to={`/blog/${data.frontmatter.slug}`}>
           <Img 
             fluid={data.frontmatter.featuredImage.childImageSharp.fluid} 
             objectFit="cover"

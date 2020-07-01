@@ -1,6 +1,6 @@
 ---
 template: contact-page
-slug: /contact
+slug: contact
 title: Forma parte de nuestra comunidad
 description: Forma parte de nuestra comunidad
 ---

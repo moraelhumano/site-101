@@ -1,6 +1,6 @@
 ---
 template: about-page
-slug: /about
+slug: about
 title: Somos Tech 101
 ---
 Somos una comunidad de talento digital formada por programadores y diseñadores . A los que además de la pasión por crear software de impacto, nos une el gusto por compartir lo que sabemos, nuestro objetivo es ayudar a romper la brecha digital, haciendo que los usuarios dejen de ser solo usuarios y se conviertan también en creadores.

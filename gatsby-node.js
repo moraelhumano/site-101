@@ -41,9 +41,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     const next = index === 0 ? null : posts[index - 1].node
 
     createPage({
-      path: post.node.frontmatter.slug,
+      path: `/blog/${post.node.frontmatter.slug}`,
       component: path.resolve(
-        `src/templates/${String(post.node.frontmatter.template)}.js`
+        `src/templates/blog-post.js`
       ),
       // additional data can be passed via context
       context: {

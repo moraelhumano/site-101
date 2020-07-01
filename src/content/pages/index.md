@@ -1,6 +1,6 @@
 ---
 template: index-page
-slug: /
+slug: ax
 title: Únete a la comunidad
 tagline: Aprende de la mano de la comunidad de creadores digitales
 featuredImage: /assets/hero.png

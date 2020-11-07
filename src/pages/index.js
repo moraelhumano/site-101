@@ -38,9 +38,9 @@ export const pageQuery = graphql`
 `
 
 const HomePage = ({ data }) => {
-  const { markdownRemark } = data // data.markdownRemark holds your post data prueba de todo
+  const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-  return (
+	return (
 		<Layout>
       <SEO/>
       <div className="home-banner grids col-1 sm-2">
@@ -54,12 +54,10 @@ const HomePage = ({ data }) => {
       <Methodology className="full-width-por"/>
       <Allies className="full-width-por margin-top-xlg "/>
       <BlogListHome className="full-width-por"/>
-      
+
 
 		</Layout>
 	)
 }
-
-
 
 export default HomePage

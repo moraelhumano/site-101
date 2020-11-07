@@ -51,6 +51,15 @@ const HomePage = ({ data }) => {
           <Link to={frontmatter.cta.ctaLink} className="button announcement-button button-responsive">{frontmatter.cta.ctaText}<span className="icon -right"><RiArrowRightSLine/></span></Link>
         </div>
       </div>
+      <div>
+          {Image ? (
+            <Img 
+              fluid={Image} 
+              alt={frontmatter.title + ' - Featured image'}
+              className="featured-image"
+            />
+          ) : ""}
+        </div>
       <Presentation className="full-width-por"/>
       <Methodology className="full-width-por"/>
       <Allies className="full-width-por margin-top-xlg "/>

@@ -1,7 +1,7 @@
 import React from "react"
 
 const Allies = () => (
-  <section className="container allies-container  ">
+  <section className="container allies-container   ">
     <h2 className="text-center">Trabajamos de la mano con el talento, estos son algunos de nuestros aliados </h2>
     <div>
       <a  href="https://bit.ly/2zDjPci" rel="noreferrer" target="_blank"><img src={require('../../static/assets/gdgunam.png')}  /></a>

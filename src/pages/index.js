@@ -1,8 +1,6 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import { RiArrowRightSLine } from "react-icons/ri"
-import Img from "gatsby-image"
-
 
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
@@ -42,8 +40,6 @@ export const pageQuery = graphql`
 const HomePage = ({ data }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-  const Image = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.fluid : "/"
-
 	return (
 		<Layout>
       <SEO/>
@@ -54,15 +50,6 @@ const HomePage = ({ data }) => {
           <Link to={frontmatter.cta.ctaLink} className="button announcement-button button-responsive">{frontmatter.cta.ctaText}<span className="icon -right"><RiArrowRightSLine/></span></Link>
         </div>
       </div>
-      <div>
-          {Image ? (
-            <Img 
-              fluid={Image} 
-              alt={frontmatter.title + ' - Featured image'}
-              className="featured-image"
-            />
-          ) : ""}
-        </div>
       <Presentation className="full-width-por"/>
       <Methodology className="full-width-por"/>
       <Allies className="full-width-por margin-top-xlg "/>

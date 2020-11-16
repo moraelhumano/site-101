@@ -8,4 +8,5 @@ cta:
   ctaText: Conoce la oferta educativa
   ctaLink: /contact
 ---
- Somos programadores enseñando a las nuevas generaciones de programadores
+
+Somos programadores enseñando a las nuevas generaciones de programadores

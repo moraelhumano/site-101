@@ -8,6 +8,7 @@ description: " Si necesitas ayuda el diagrama de Ikigai puede hacerlo, este mapa
   por medio de 4 sencillas preguntas."
 featuredImage: /assets/img_20190424_220848.jpg
 ---
+
 <!--StartFragment-->
 
 Han pasado ya algunos años desde que decidí dejar la escuela y hoy puedo asegurar que fue lo mejor que pude haber hecho, pero no tiene que ser lo mismo para ti o para las otras personas, los contextos siempre son distintos y es tarea de nosotros saber a donde nos dirigimos.
@@ -26,10 +27,10 @@ Para la fecha en la que escribo esto yo apenas debería de estar en proceso de t
 
 Solo date unos minutos o días de meditación y piensa que es lo que vas a hacer para poder mejorar tu estilo de vida y el de los demás, no es complicado. Si necesitas ayuda el diagrama de Ikigai puede hacerlo, este mapa se divide en varias secciones que nos ayudarán a poder encontrar un propósito por medio de 4 sencillas preguntas.
 
-* ¿Qué es lo que amas?
-* ¿Qué sabes hacer bien?
-* ¿Qué crees que el mundo necesita de ti?
-* ¿Por qué deberías recibir un salario?
+- ¿Qué es lo que amas?
+- ¿Qué sabes hacer bien?
+- ¿Qué crees que el mundo necesita de ti?
+- ¿Por qué deberías recibir un salario?
 
 ![](/assets/1-u8yemmezudiykf-dw3bwra.jpeg "Ikigai es una palabra/filosofía japonesa, a la cual se le atribuyen varios significados: “La felicidad de estar siempre ocupado”, “una razón para levantarse por las mañanas”, “propósito de vida”, “el significado de tu vida”, “razón de ser”, entre muchas otras.")
 

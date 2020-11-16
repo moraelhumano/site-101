@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-facebook-pixel`,
       options: {
-        pixelId: '850188455390224',
+        pixelId: "850188455390224",
       },
     },
     {
@@ -94,6 +94,6 @@ module.exports = {
         icon: `static/assets/logo.png`,
       },
     },
-    'gatsby-plugin-offline',
+    "gatsby-plugin-offline",
   ],
 }

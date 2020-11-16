@@ -9,6 +9,7 @@ description: "A lo largo de mi vida, muchas veces me pidieron trabajar en
   de los equipos. "
 featuredImage: /assets/1-2wn_angajo4_kn1jfbzuwq.png
 ---
+
 <!--StartFragment-->
 
 A lo largo de mi vida, muchas veces me pidieron trabajar en equipo. Honestamente, no me gustaba. Prefería hacer mi trabajo de forma individual. Sin embargo, con el paso del tiempo, fui comprendiendo el porqué de los equipos.
@@ -59,14 +60,6 @@ Recuerda que cada miembro del equipo es único al proporcionar experiencias, per
 
 ![](/assets/1-2wn_angajo4_kn1jfbzuwq.png "La magia ocurre cuando todos estamos trabajando en un mismo proyecto")
 
-
-
-
-
 Como seres individualistas el comprender el trabajo en equipo cuesta demasiado, el aplicar las claves ya mencionadas, nos puede llevar en cualquier ámbito de nuestra vida a ser más armoniosos con las personas con las que compartimos ideologías distintas. No es tan complicado, se los dice una persona que siempre le ha gustado trabajar individualmente, pero pongámonos en un contexto laboral, si no nos apoyamos de otras personas nuestro trabajo llegará al rotundo fracaso, además el mundo esta en constante cambio y el trabajo en equipo va incluido en ello.
-
-
-
-
 
 <!--EndFragment-->

@@ -6,17 +6,26 @@ import PostCard from "./post-card"
 
 const PostMaker = ({ data }) => (
   <section className="container margin-top-lg container-list-blog">
-    <h2 className="text-center">Lee las últimas colaboraciones de la comunidad en nuestro <strong>Blog</strong> <span className="icon -right"><RiArrowDownLine/></span></h2>
-    <div className="grids col-1 sm-2 lg-3">
-      {data}
-    </div>
-    <Link className="button margin-top-lg" to="/blog">Ver más<span className="icon -right"><RiArrowRightSLine/></span></Link>
+    <h2 className="text-center">
+      Lee las últimas colaboraciones de la comunidad en nuestro{" "}
+      <strong>Blog</strong>{" "}
+      <span className="icon -right">
+        <RiArrowDownLine />
+      </span>
+    </h2>
+    <div className="grids col-1 sm-2 lg-3">{data}</div>
+    <Link className="button margin-top-lg" to="/blog">
+      Ver más
+      <span className="icon -right">
+        <RiArrowRightSLine />
+      </span>
+    </Link>
   </section>
 )
 
 export default function BlogListHome() {
   return (
-    <StaticQuery 
+    <StaticQuery
       query={graphql`
         query {
           allMarkdownRemark(
@@ -44,18 +53,14 @@ export default function BlogListHome() {
               }
             }
           }
-        }`
-      }
-
-      render={ data => {
-          const posts = data.allMarkdownRemark.edges
-            .filter(edge => !!edge.node.frontmatter.date)
-            .map(edge =>
-              <PostCard key={edge.node.id} data={edge.node} />
-          )
-          return <PostMaker data={posts} />
-        } 
-      }
+        }
+      `}
+      render={data => {
+        const posts = data.allMarkdownRemark.edges
+          .filter(edge => !!edge.node.frontmatter.date)
+          .map(edge => <PostCard key={edge.node.id} data={edge.node} />)
+        return <PostMaker data={posts} />
+      }}
     />
   )
 }

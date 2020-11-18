@@ -10,6 +10,7 @@ description: >-
   Este es el lema de Anonymous un colectivo de autodenominados “hacktivistas” o “ciberactivistas” de los cuales seguro has escuchado y los recordarás por utili
 featuredImage: /assets/img_20200602_163945.jpg
 ---
+
 <!--StartFragment-->
 
 “El conocimiento es libre. Somos Anonymous. Somos Legión. No perdonamos. No olvidamos.”

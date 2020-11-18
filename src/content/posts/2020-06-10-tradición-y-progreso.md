@@ -8,6 +8,7 @@ description: Es un placer de la vida el darle vuelta una a una a la páginas y
   comienza a perder fuerza para permitirnos conocer más sobre él.
 featuredImage: /assets/typ.png
 ---
+
 <!--StartFragment-->
 
 Me gustan mis viajes en el metro en los que al ver llegar el tren esperas alcanzar un lugar vacío para sentarte y disfrutar de una charla en la solo eres el interlocutor y pones atención a la voz que se forma con los sonidos de vagón y las palabras que salen de un libro. Es un placer de la vida el darle vuelta una a una a la páginas y sentir como el lado izquierdo comienza a hacerse más pesado y el derecho comienza a perder fuerza para permitirnos conocer más sobre él. Por estos y otras razones es que siempre cargo un libro en mi mochila, no siempre tengo la oportunidad de leer en el camino, pero me gusta saber que está ahí. Me declaro uno apóstol de la palabra impresa, de los que disfrutan oler un libro nuevo y evita doblarlo más de 90º para que no maltratarlo, me gusta tenerlos por montones , muchos títulos sin leer, pero me agrada sentirlos cerca, un pdf nunca me ha hecho sentir eso. Tengo muchos motivos que son difíciles de explicar, me comprometo a tratar de hacerlo lo mejor que pueda y que logre convencerte de que el paraíso de los árboles talados se encuentra entre las manos de quien está leyendo una buena obra.
@@ -18,17 +19,11 @@ La historia tuvo un punto de inflexión el día que Gutenberg colocó el último
 
 ![](/assets/1-aspvnepl7xicpnwlx4elfa.png "Número de libros impresos a partir de Gutenberg")
 
-
-
 **Arma un búnker de libros**
 
 Mi pequeña biblioteca con los años se ha convertido o eso me gusta pensar, en un búnker de cultura, que está disponible las 24 horas del día, con o sin electricidad, totalmente útiles en caso de un apocalipsis zombie o si se te acabó la pila de tu teléfono. Un libro es información que perdura, que piden un cuidado mínimo para mantenerlos en circulación, tenemos el ejemplo de una obra llamada “Sutra del diamante” un papiro que data del 868, mucho antes de la biblia de Gutenberg.
 
-
-
 ![](/assets/1-zqsjlhdv6roy_jqai3qptg.jpeg "Parte de mi biblioteca conformada entre novelas y comics, una lectura ligera siempre es agradecida por nuestra cabeza")
-
-
 
 **Progreso**
 
@@ -42,14 +37,10 @@ Para entender mejor el mundo de los libros les recomiendo el contenido de [Paco 
 
 ![](/assets/1-zo9clje49ngiiiknlsippa.jpeg "Tradición y progreso (Obra del que me robé el titulo para este blog)")
 
-
-
 Los dispositivos electrónicos continuarán ganando terreno dentro del mercado de los lectores por las ventajas que este tiene, desde las descargargas ilegales del nuevo de King o los costos reducidos de e-books en amazon ¿y es qué en 2019 esto tiene sentido no? Pero ya han pasado más de 400 años desde que se creo la primera imprenta y los libros aquí siguen, veremos que pasa con la oleada de lectores electrónicos y el internet, si superan las inclemencias del tiempo, por lo tanto los libros se mantienen y los libros han demostrado que nunca pasaran de moda.
 
 Saludos desde 127.0.0.1
 
 **Colaborador: Salvador Mora**
-
-
 
 <!--EndFragment-->

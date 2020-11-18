@@ -12,7 +12,7 @@ import SEO from "../components/seo"
 
 export const pageQuery = graphql`
   query Home{
-		markdownRemark(id: { eq: "9fb6a301-3a47-5c55-a869-18f7904899cc"}) {
+		markdownRemark(fields:{slug:{eq:"/"}}) {
       id
       html
       frontmatter {

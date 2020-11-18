@@ -2,14 +2,10 @@ import React from "react"
 
 const Presentation = () => (
   <section className="container presentation-container margin-top-zero margin-top-lg container-presentation">
-<<<<<<< HEAD
-    <img src={require('../../static/assets/img2.png')} className="logo img-presentation" alt="img-hero" />
-=======
     <img
       src={require("../../static/assets/img2.png")}
       className="logo img-presentation"
     />
->>>>>>> c99d2f397072dd46fd7f83acca9f7e0c821c472b
     <div>
       <h2>Aprender es más fácil en equipo.</h2>
 

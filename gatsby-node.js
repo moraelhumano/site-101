@@ -32,8 +32,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     return
   }
 
-  // Create blog posts
+  // Create markdown pages
   const posts = result.data.allMarkdownRemark.edges
+  let blogPostsCount = 0
 
   posts.forEach((post, index) => {
     const id = post.node.id
@@ -41,9 +42,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     const next = index === 0 ? null : posts[index - 1].node
 
     createPage({
-      path: `/blog/${post.node.frontmatter.slug}`,
+      path: post.node.frontmatter.slug,
       component: path.resolve(
-        `src/templates/blog-post.js`
+        `src/templates/${String(post.node.frontmatter.template)}.js`
       ),
       // additional data can be passed via context
       context: {
@@ -52,11 +53,16 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         next,
       },
     })
+
+    // Count blog posts.
+    if (post.node.frontmatter.template === 'blog-post') {
+      blogPostsCount++
+    }
   })
 
   // Create blog-list pages
   const postsPerPage = 9
-  const numPages = Math.ceil(posts.length / postsPerPage)
+  const numPages = Math.ceil(blogPostsCount / postsPerPage)
 
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({

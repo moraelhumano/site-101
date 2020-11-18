@@ -25,7 +25,7 @@ export const pageQuery = graphql`
 
 const Contact = ({data}) => {
   const { markdownRemark, site } = data // data.markdownRemark holds your post data
-  const { frontmatter, html } = markdownRemark
+  const { frontmatter } = markdownRemark
 
   return  (
     <Layout className="container contact-page margin-top-xlg"> 
@@ -37,14 +37,14 @@ const Contact = ({data}) => {
 
       <section className="container contact-container container-presentation">
 
-      <img src={require('../../static/assets/logo.png')} className="logo img-presentation align-self" />
+      <img src={require('../../static/assets/logo.png')} className="logo img-presentation align-self" alt="logo-registro" />
 
       <div className="wrapper margin-top-xlg">
         <h1>{frontmatter.title}</h1>
         <p>
           Nuestro bootcamp está orientado a principiantes con el objetivo de integrarse a la industria tech
         </p>
-        <a href="https://bit.ly/2YHKzB3" target="_blank" download>
+        <a href="https://bit.ly/2YHKzB3" target="_blank" download rel="noreferrer">
         <p>
           Descarga la información del programa &#128187;
         </p>
@@ -64,7 +64,7 @@ const Contact = ({data}) => {
             <label>Contáctame por Whatsapp<input name="number" /></label>
           </p>
           <p className="text-align-right">
-            <button className="button" type="submit">Enviar registro <span className="icon -right"><RiSendPlane2Line/></span></button>
+            <button className="button" type="submit">Enviar registro <span className="icon -right"  aria-label="arrow" role="img"><RiSendPlane2Line/></span></button>
           </p>
         </form>
       </div>

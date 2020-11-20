@@ -4,6 +4,8 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import Batch from "../components/batch03"
+
 export const pageQuery = graphql`
   query AboutQuery($id: String!) {
     markdownRemark(id: { eq: $id }) {
@@ -23,10 +25,7 @@ const AboutPage = ({ data }) => {
   return (
     <Layout className="container">
       <SEO title={frontmatter.title} description={excerpt} />
-      <div className="wrapper margin-top-xlg">
-        <h1>{frontmatter.title}</h1>
-        <article dangerouslySetInnerHTML={{ __html: html }} />
-      </div>
+      <Batch/>
     </Layout>
   )
 }

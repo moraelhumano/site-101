@@ -53,7 +53,7 @@ const HomePage = ({ data }) => {
       <Presentation className="full-width-por"/>
       <Methodology className="full-width-por"/>
       <Allies className="full-width-por margin-top-xlg "/>
-      <BlogListHome className="full-width-por"/>
+      {/* <BlogListHome className="full-width-por"/> */}
 
 
 		</Layout>

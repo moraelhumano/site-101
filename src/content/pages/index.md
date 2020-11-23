@@ -1,12 +1,12 @@
 ---
 template: index-page
 slug: ax
-title: Únete a la comunidad
+title: Aprende con nuestra comunidad
 tagline: Aprende de la mano de la comunidad de creadores digitales
 featuredImage: /assets/hero.png
 cta:
-  ctaText: Conoce la oferta educativa
+  ctaText: Conoce la convocatoria
   ctaLink: /contact
 ---
 
-Somos programadores enseñando a las nuevas generaciones de programadores
+Desarrollamos el nuevo talento digital

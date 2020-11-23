@@ -7,10 +7,10 @@ const MenuItems = [
   //   path: "/blog",
   //   title: "Blog"
   // },
-  {
-    path: "/contact",
-    title: "Registro",
-  },
+  // {
+  //   path: "/contact",
+  //   title: "Registro",
+  // },
 ]
 
 const ListLink = props => (

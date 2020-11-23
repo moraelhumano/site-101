@@ -3,11 +3,11 @@ import React from "react"
 const Methodology = () => (
   <section className="container presentation-container margin-top-lg container-presentation">
     <div>
-      <h2>Aprende como aprenden los programadores</h2>
+      <h2>Aprende como aprenden los profesionales</h2>
 
       <p>
         Nuestra metodología está basada en los buenos habitos de estudio que
-        llevan los programadores en su día a día:{" "}
+        llevan los grandes programadores en su día a día:{" "}
         <b>Investigar mucho, leer más y prácticar toda la noche.</b>
       </p>
     </div>

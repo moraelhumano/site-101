@@ -15,7 +15,7 @@ const Methodology = () => (
       width="560"
       className="align-self"
       height="315"
-      src="https://www.youtube.com/embed/yepmB0RghyU"
+      src="https://www.youtube.com/embed/AiGqigA9PCg"
       frameBorder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen

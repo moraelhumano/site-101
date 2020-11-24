@@ -3,14 +3,18 @@ import { RiHeart2Line } from "react-icons/ri";
 
 const Footer = () => (
   <footer className="site-footer margin-top-lg">
-    <div className="container ">
-      <p>
-        Sitio creado por la comunidad de Tech 101
-        <span className="icon -love">
-          <RiHeart2Line />
-        </span>{" "}
-        para el resto de la comunidad tech
-      </p>
+    <div className=" container-rrss">
+        <p>
+          Sitio y programas creados por Tech 101
+          para el resto de la comunidad tech<span className="icon -love">
+            <RiHeart2Line />
+          </span>{" "}
+        </p>
+      <div className="icons-rrss">
+        <a href="https://www.facebook.com/somostech101" target="_blank"><img src={require("../../static/assets/facebook.png")} alt="facebook-logo" /></a>
+        <a href="https://www.instagram.com/somostech101/" target="_blank"><img src={require("../../static/assets/instagram.png")} alt="facebook-logo" /></a>
+        <a href="https://www.youtube.com/watch?v=yepmB0RghyU" target="_blank"><img src={require("../../static/assets/youtube.png")} alt="facebook-logo" /></a>
+      </div>
     </div>
   </footer>
 )

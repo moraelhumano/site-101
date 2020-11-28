@@ -5,10 +5,11 @@ const Footer = () => (
   <footer className="site-footer margin-top-lg">
     <div className=" container-rrss">
         <p>
-          Sitio y programas creados por Tech 101
-          para el resto de la comunidad tech<span className="icon -love">
+          <span className="icon -love">
             <RiHeart2Line />
           </span>{" "}
+          Sitio y programas creados por Tech 101
+          para el resto de la comunidad
         </p>
       <div className="icons-rrss">
         <a href="https://www.facebook.com/somostech101" target="_blank"><img src={require("../../static/assets/facebook.png")} alt="facebook-logo" /></a>

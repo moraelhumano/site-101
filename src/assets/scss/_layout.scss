@@ -6,6 +6,10 @@
   margin-top: $lg*2 !important;
 }
 
+.margin-left-sm{
+  margin-left: 15px;
+}
+
 .padding-zero{
   padding: 0 !important;
 }
@@ -22,11 +26,15 @@
   max-width:inherit !important;
 }
 
+.text-right{
+  text-align: right;
+}
+
 .presentation-container{
   width: 100%;
   height: inherit;
   display: flex;
-  justify-content: space-between;
+  
 
 
   img{

@@ -55,6 +55,25 @@
   }
 }
 
+.hero-register{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  .hero-register-img{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: black;
+  }
+
+  .copy-register{
+    width: 70%;
+  }
+
+}
 
 .contact-container{
   width: 100%;

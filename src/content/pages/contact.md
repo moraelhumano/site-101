@@ -1,6 +1,6 @@
 ---
 template: contact-page
 slug: contact
-title: Forma parte de nuestra comunidad
+title: Queremos que formes parte de Tech 101
 description: Forma parte de nuestra comunidad
 ---

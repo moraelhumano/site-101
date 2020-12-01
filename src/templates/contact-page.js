@@ -33,42 +33,58 @@ const Contact = ({data}) => {
         title={frontmatter.title}
         description={frontmatter.title + " " + site.siteMetadata.title}
       />
- 
 
+      <section className="hero-register">
+        <div className="hero-register-img">
+          <img src={require('../../static/assets/herobatch03.png')} className="img-presentation align-self" alt="logo-registro" />  
+        </div>
+
+        <div className="copy-register">
+          <p className="title-blog text-center">
+            <b>¡Se busca talento!</b>
+          </p>
+          <p>En la pandemia se han perdido empleos que nunca van a regresar, puestos que ya no son necesarios para la nueva normalidad, es por eso que en <b>Tech 101</b> lanzamos el <b>3er batch</b> de nuestro bootcamp con el que continuaremos capacitando cada día a más talentos con las habilidades tech que hoy el mundo necesita.</p>
+          <p>Durante un mes aprenderás los temas que te permitirán crear sitios web bajo la <b>metodología 101</b> con la que desarrollarás las habilidades que todos los programadores deben de tener.</p>
+          <p className="margin-top-lg">
+            <b>Para registrarte al proceso de selección solo debes de cumplir los siguientes requisitos:</b>
+          </p>
+          <ol>
+            <li>Llenar el formulario</li>
+            <li>Síguenos en nuestras redes  
+                <b> <a href="" target="_blank">FACEBOOK</a></b> e <b><a href="" target="_blank">INSTAGRAM</a></b> 
+            </li>
+            <li>Comparte en tu muro de facebook la siguiente publicación</li>
+            <li>En la misma publicación etiqueta a tus amigos con los que te gustaría aprender a programar</li>
+          </ol>
+          <p className="margin-top-lg"><b>Mantente al tanto del proceso de selección en nuestras redes sociales</b></p>
+          <p><b>Cierre de convocatoria 1 Enero 2021</b></p>
+          <p><b>Términos y condiciones:</b></p>
+          <p>La fecha de inicio de clases puede cambiar sin previo aviso</p>
+          <p>De no cumplir los requisitos no se otorgará la beca</p>
+        </div>
+
+      </section>
       <section className="container contact-container container-presentation">
-
-      <img src={require('../../static/assets/logo.png')} className="logo img-presentation align-self" alt="logo-registro" />
-
-      <div className="wrapper margin-top-xlg">
-        <h1>{frontmatter.title}</h1>
-        <p>
-          Nuestro bootcamp está orientado a principiantes con el objetivo de integrarse a la industria tech
-        </p>
-        <a href="https://bit.ly/2YHKzB3" target="_blank" download rel="noreferrer">
-        <p>
-          Descarga la información del programa &#128187;
-        </p>
-
-        </a>
-
-        <form className="contact-form" action="/thanks" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-          <input type="hidden" name="form-name" value="contact" />
-          <p>
-            <label>Nombre<input type="text" name="name" /></label>   
-          </p>
-          <p>
-            <label>Email<input type="email" name="email" /></label>
-          </p>
-
-          <p>
-            <label>Contáctame por Whatsapp<input name="number" /></label>
-          </p>
-          <p className="text-align-right">
-            <button className="button" type="submit">Enviar registro <span className="icon -right"  aria-label="arrow" role="img"><RiSendPlane2Line/></span></button>
-          </p>
-        </form>
-      </div>
-  </section>
+        <div className="wrapper margin-top-xlg">
+          <h1>{frontmatter.title}</h1>
+          <form className="contact-form" action="/thanks" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact" />
+            <p>
+              <label>Nombre<input type="text" name="name" /></label>   
+            </p>
+            <p>
+              <label>Email<input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>¿Por qué quieres aprender a programar?<input name="number" /></label>
+            </p>
+            <p className="text-align-right">
+              <button className="button" type="submit">Enviar registro <span className="icon -right"  aria-label="arrow" role="img"><RiSendPlane2Line/></span></button>
+            </p>
+          </form>
+        </div>
+        <img src={require('../../static/assets/logo.png')} className="logo img-presentation align-self" alt="logo-registro" />
+      </section>
 
     </Layout>
   )

@@ -12,15 +12,10 @@ const SocialMedia = () => (
       allowfullscreen
     ></iframe>
   <div className="text-right margin-left-sm">
-    <h2 className="margin-top-zero">Aprender es más fácil en equipo.</h2>
+    <h2 className="margin-top-zero">Síguenos en nuestras redes</h2>
 
     <p>
-      Somos una comunidad de talento digital formada por programadores y
-      diseñadores . A los que además de la pasión por crear software de
-      impacto, nos une el gusto por <b>compartir</b> lo que sabemos, nuestro
-      objetivo es ayudar a <b>romper la brecha digital</b>, haciendo que los
-      usuarios dejen de ser solo usuarios y se conviertan también en
-      creadores.
+      Además de nuestro bootcamp puedes seguirnos en nuestras redes en las que <b>compartimos contenido</b> que te será de gran ayuda durante tu formación como como programador.
     </p>
   </div>
 </section>

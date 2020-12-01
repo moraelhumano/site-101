@@ -51,9 +51,9 @@ const Contact = ({data}) => {
           <ol>
             <li>Llenar el formulario</li>
             <li>Síguenos en nuestras redes  
-                <b> <a href="" target="_blank">FACEBOOK</a></b> e <b><a href="" target="_blank">INSTAGRAM</a></b> 
+                <b> <a href="https://www.facebook.com/somostech101" target="_blank">FACEBOOK</a></b> e <b><a href="https://www.instagram.com/somostech101/" target="_blank">INSTAGRAM</a></b> 
             </li>
-            <li>Comparte en tu muro de facebook la siguiente publicación</li>
+            <li>Comparte en tu muro de Facebook la siguiente publicación</li>
             <li>En la misma publicación etiqueta a tus amigos con los que te gustaría aprender a programar</li>
           </ol>
           <p className="margin-top-lg"><b>Mantente al tanto del proceso de selección en nuestras redes sociales</b></p>
@@ -78,7 +78,7 @@ const Contact = ({data}) => {
             <p>
               <label>¿Por qué quieres aprender a programar?<input name="number" /></label>
             </p>
-            <p className="text-align-right">
+            <p>
               <button className="button" type="submit">Enviar registro <span className="icon -right"  aria-label="arrow" role="img"><RiSendPlane2Line/></span></button>
             </p>
           </form>

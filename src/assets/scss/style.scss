@@ -8,7 +8,11 @@
 
 
 
-
+input:focus {
+	outline-color: -webkit-focus-ring-color;
+	outline-style: auto;
+	outline-width: 0px !important;
+}
 
 .primary-container {
 display: grid;

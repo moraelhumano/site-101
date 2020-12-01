@@ -15,7 +15,7 @@ const SocialMedia = () => (
     <h2 className="margin-top-zero">Síguenos en nuestras redes</h2>
 
     <p>
-      Además de nuestro bootcamp puedes seguirnos en nuestras redes en las que <b>compartimos contenido</b> que te será de gran ayuda durante tu formación como como programador.
+      Además de nuestro bootcamp puedes seguirnos en nuestras redes en las que <b>compartimos contenido</b> que te será de gran ayuda durante tu formación como programador.
     </p>
   </div>
 </section>

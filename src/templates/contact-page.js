@@ -76,7 +76,7 @@ const Contact = ({data}) => {
               <label>Email<input type="email" name="email" /></label>
             </p>
             <p>
-              <label>¿Por qué quieres aprender a programar?<input name="number" /></label>
+              <label>Número de contacto<input name="number" /></label>
             </p>
             <p>
               <button className="button" type="submit">Enviar registro <span className="icon -right"  aria-label="arrow" role="img"><RiSendPlane2Line/></span></button>

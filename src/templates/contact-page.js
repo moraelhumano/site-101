@@ -53,7 +53,7 @@ const Contact = ({data}) => {
             <li>Síguenos en nuestras redes  
                 <b> <a href="https://www.facebook.com/somostech101" target="_blank">FACEBOOK</a></b> e <b><a href="https://www.instagram.com/somostech101/" target="_blank">INSTAGRAM</a></b> 
             </li>
-            <li>Comparte en tu muro de Facebook la esta <a href="https://www.facebook.com/somostech101/photos/a.341360506439373/813015829273836" target="_blank"><b>PUBLICACIÓN</b></a></li>
+            <li>Comparte en tu perfil de Facebook la siguiente <a href="https://www.facebook.com/somostech101/photos/a.341360506439373/813015829273836" target="_blank"><b>PUBLICACIÓN</b></a></li>
             <li>En la misma publicación etiqueta a tus amigos con los que te gustaría aprender a programar</li>
           </ol>
           <p className="margin-top-lg"><b>Mantente al tanto del proceso de selección en nuestras redes sociales</b></p>
@@ -76,7 +76,7 @@ const Contact = ({data}) => {
               <label>Email<input type="email" name="email" /></label>
             </p>
             <p>
-              <label>Número de contacto<input name="number" /></label>
+              <label>Número de contacto<input type="number" name="number" /></label>
             </p>
             <p>
               <button className="button" type="submit">Enviar registro <span className="icon -right"  aria-label="arrow" role="img"><RiSendPlane2Line/></span></button>

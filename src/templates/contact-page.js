@@ -36,7 +36,7 @@ const Contact = ({data}) => {
 
       <section className="hero-register">
         <div className="hero-register-img">
-          <img src={require('../../static/assets/herobatch03.png')} className="img-presentation align-self" alt="logo-registro" />  
+          <img src={require('../../static/assets/herobatch03.png')} className="img-hero-register align-self" alt="logo-registro" />  
         </div>
 
         <div className="copy-register">
@@ -53,7 +53,7 @@ const Contact = ({data}) => {
             <li>Síguenos en nuestras redes  
                 <b> <a href="https://www.facebook.com/somostech101" target="_blank">FACEBOOK</a></b> e <b><a href="https://www.instagram.com/somostech101/" target="_blank">INSTAGRAM</a></b> 
             </li>
-            <li>Comparte en tu muro de Facebook la siguiente publicación</li>
+            <li>Comparte en tu muro de Facebook la esta <a href="https://www.facebook.com/somostech101/photos/a.341360506439373/813015829273836" target="_blank"><b>PUBLICACIÓN</b></a></li>
             <li>En la misma publicación etiqueta a tus amigos con los que te gustaría aprender a programar</li>
           </ol>
           <p className="margin-top-lg"><b>Mantente al tanto del proceso de selección en nuestras redes sociales</b></p>

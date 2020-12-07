@@ -38,7 +38,7 @@ const Contact = ({data}) => {
 
       <section className="hero-register">
         <div className="hero-register-img">
-          <img src={require('../../static/assets/herobatch03.png')} className="img-hero-register align-self" alt="logo-registro" />  
+          <img src={require('../../static/assets/herobatch03.png')} className="img-hero-register align-self margin-top-lg" alt="logo-registro" />  
         </div>
 
         <div className="copy-register">

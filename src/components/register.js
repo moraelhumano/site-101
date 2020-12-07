@@ -96,14 +96,7 @@ export default class Register extends Component {
   render() {
     return (
       <section className="container contact-container container-presentation"> 
-       {this.state.submitted ? (
-          <div>
-            <h4>You submitted successfully!</h4>
-            <button className="btn btn-success" onClick={this.newTutorial}>
-              Add
-            </button>
-          </div>
-        ) : (
+
        <div className="wrapper full-width-por">
             <form className="contact-form full-width-por" action="/thanks">
             <div className="full-width-por">
@@ -175,7 +168,7 @@ export default class Register extends Component {
             </form>
         
         </div>
-          )}
+          }
       </section>
     );
   }

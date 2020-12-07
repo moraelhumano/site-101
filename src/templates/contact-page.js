@@ -88,10 +88,10 @@ const Contact = ({data}) => {
           
         </section>
         <div className="text-center margin-top-xlg" style={{fontSize: 16 }}>
-        <p style={{lineHeight: 0.2}}><b>Cierre de convocatoria 1 Enero 2021</b></p>
-        <p style={{lineHeight: 0.2}}><b>Términos y condiciones:</b></p>
-        <p style={{lineHeight: 0.2}}>La fecha de inicio de clases puede cambiar sin previo aviso</p>
-        <p style={{lineHeight: 0.2}}>De no cumplir los requisitos descritos anteriormente no se otorgará la beca</p>
+        <p className="line-height"><b>Cierre de convocatoria 1 Enero 2021</b></p>
+        <p className="line-height"><b>Términos y condiciones:</b></p>
+        <p className="line-height">La fecha de inicio de clases puede cambiar sin previo aviso</p>
+        <p className="line-height">De no cumplir los requisitos descritos anteriormente no se otorgará la beca</p>
         </div>
     
 

@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import TutorialDataService from "../services/tutorial.service";
 
-// import { Link } from "gatsby"
-// import { RiArrowLeftSLine, RiCheckboxCircleLine } from "react-icons/ri"
+
 
 
 export default class Register extends Component {
@@ -98,7 +97,7 @@ export default class Register extends Component {
       <section className="container contact-container container-presentation"> 
 
        <div className="wrapper full-width-por">
-            <form className="contact-form full-width-por" action="/thanks">
+            <form className="contact-form full-width-por form-register-batch" action="/thanks">
             <div className="full-width-por">
                 <label htmlFor="name">Nombre completo</label>
                 <input
@@ -162,8 +161,7 @@ export default class Register extends Component {
               </div>
 
 
-             <button className="button"  onClick={this.saveTutorial} >Enviar registro 
-              <span className="icon -right"  aria-label="arrow" role="img"></span>
+             <button className="button button-responsive text-center margin-top-lg"  onClick={this.saveTutorial} >Enviar registro 
               </button>
             </form>
         

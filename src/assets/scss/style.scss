@@ -6,7 +6,16 @@
 @import "layout";
 @import "stylestailwind";
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
 
 input:focus {
 	outline-color: -webkit-focus-ring-color;

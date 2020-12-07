@@ -2,6 +2,8 @@ import React from "react"
 import { graphql } from "gatsby"
 import {RiSendPlane2Line} from "react-icons/ri";
 
+import Register from "../components/register.js"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -49,7 +51,7 @@ const Contact = ({data}) => {
             <b>Para registrarte al proceso de selección solo debes de cumplir los siguientes requisitos:</b>
           </p>
           <ol>
-            <li>Llenar el formulario</li>
+            <li>Llena el siguiente formulario</li>
             <li>Síguenos en nuestras redes  
                 <b> <a href="https://www.facebook.com/somostech101" target="_blank">FACEBOOK</a></b> e <b><a href="https://www.instagram.com/somostech101/" target="_blank">INSTAGRAM</a></b> 
             </li>
@@ -57,34 +59,43 @@ const Contact = ({data}) => {
             <li>En la misma publicación etiqueta a tus amigos con los que te gustaría aprender a programar</li>
           </ol>
           <p className="margin-top-lg"><b>Mantente al tanto del proceso de selección en nuestras redes sociales</b></p>
-          <p><b>Cierre de convocatoria 1 Enero 2021</b></p>
-          <p><b>Términos y condiciones:</b></p>
-          <p>La fecha de inicio de clases puede cambiar sin previo aviso</p>
-          <p>De no cumplir los requisitos no se otorgará la beca</p>
         </div>
 
       </section>
-      <section className="container contact-container container-presentation">
-        <div className="wrapper margin-top-xlg">
-          <h1>{frontmatter.title}</h1>
-          <form className="contact-form" action="/thanks" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
-            <input type="hidden" name="form-name" value="contact" />
-            <p>
-              <label>Nombre<input type="text" name="name" /></label>   
-            </p>
-            <p>
-              <label>Email<input type="email" name="email" /></label>
-            </p>
-            <p>
-              <label>Número de contacto<input type="number" name="number" /></label>
-            </p>
-            <p>
-              <button className="button" type="submit">Enviar registro <span className="icon -right"  aria-label="arrow" role="img"><RiSendPlane2Line/></span></button>
-            </p>
-          </form>
+      
+        <section className="container contact-container container-presentation">
+          {/* <div className="wrapper margin-top-xlg">
+            <h1>{frontmatter.title}</h1>
+            <form className="contact-form" action="/thanks" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="contact" />
+              <p>
+                <label>Nombre<input type="text" name="name" /></label>   
+              </p>
+              <p>
+                <label>Email<input type="email" name="email" /></label>
+              </p>
+              <p>
+                <label>Número de contacto<input type="number" name="number" /></label>
+              </p>
+              <p>
+                <button className="button" type="submit">Enviar registro <span className="icon -right"  aria-label="arrow" role="img"><RiSendPlane2Line/></span></button>
+              </p>
+            </form>
+          </div> */}
+          <Register/>
+          <img src={require('../../static/assets/logo.png')} className="logo img-presentation align-self" alt="logo-registro" />
+          
+          
+        </section>
+        <div className="text-center margin-top-xlg" style={{fontSize: 16 }}>
+        <p style={{lineHeight: 0.2}}><b>Cierre de convocatoria 1 Enero 2021</b></p>
+        <p style={{lineHeight: 0.2}}><b>Términos y condiciones:</b></p>
+        <p style={{lineHeight: 0.2}}>La fecha de inicio de clases puede cambiar sin previo aviso</p>
+        <p style={{lineHeight: 0.2}}>De no cumplir los requisitos descritos anteriormente no se otorgará la beca</p>
         </div>
-        <img src={require('../../static/assets/logo.png')} className="logo img-presentation align-self" alt="logo-registro" />
-      </section>
+    
+
+      
 
     </Layout>
   )

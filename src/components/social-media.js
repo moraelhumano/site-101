@@ -11,7 +11,7 @@ const SocialMedia = () => (
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
-  <div className="text-right margin-left-sm">
+  <div className="text-right ">
     <h2 className="margin-top-zero">Síguenos en nuestras redes</h2>
 
     <p>

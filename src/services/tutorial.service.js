@@ -1,6 +1,6 @@
 import firebase from "../firebase";
 
-const db = firebase.ref("/day");
+const db = firebase.ref("/batch03");
 
 class TutorialDataService {
   getAll() {

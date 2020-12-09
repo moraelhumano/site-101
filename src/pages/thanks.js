@@ -15,7 +15,7 @@ const Thanks = () => (
       }}
     >
 
-      <section className="margin-top-lg">
+      <section className="margin-top-lg padding-responsive-contaner">
       <RiCheckboxCircleLine
         style={{
           fontSize: "128px",

@@ -313,10 +313,22 @@ height: 90px;
 	.padding-responsive-contaner{
 		padding: 20px;
 	}
+
+	.site-footer {
+		padding-bottom: 0px !important;
+}
 	
 	.button{
 		width: 80%;
 	}
+
+	.container-rrss {
+		flex-direction: column;
+		
+		div{
+			margin-top: 10px;
+		}
+}
 
 
 

@@ -13,6 +13,7 @@ let config = {
     measurementId: "G-1115LQNY74"
 };
 
+
 firebase.initializeApp(config);
 
 export default firebase.database();
